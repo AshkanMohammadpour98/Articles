@@ -1,0 +1,25 @@
+.card{
+    border: none !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all 0.5s;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.card a{
+    text-decoration: none;
+    color: black;
+}
+.card-text{
+    color: #0000006e;
+}
+.read-time span{
+    padding: 5px;
+}
+.read-more{
+    margin-right: 5px;
+    cursor: pointer;
+}
+.read-more:hover{
+    color: #e44ce9;
+}
